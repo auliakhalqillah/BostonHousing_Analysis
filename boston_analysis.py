@@ -139,7 +139,7 @@ print('\n[9] Predict Prices')
 for i, price in enumerate(predict_price):
     print ("Predicted selling price for Client %d : $%f" % (i+1, price*1000))
 
-# Conclusion
+# Conclusions
 # 1. The higher percentage lower status of the population (LSTAT) affects to the cheap price of home (PRICE)
 # 2. The higher number of rooms per dwellling affects to the high price of home (PRICE)
 # 3. By 56.92 % of variance, the observed data can be explained by using this model. That means, the price of
